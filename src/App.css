@@ -1,0 +1,327 @@
+body{
+
+  margin:0;
+
+  padding:0;
+
+  font-family:Arial,sans-serif;
+
+  background:
+  linear-gradient(
+    135deg,
+    #0f172a,
+    #111827,
+    #1e293b
+  );
+
+  min-height:100vh;
+}
+
+/* MAIN */
+
+.app{
+
+  padding:30px;
+
+  color:white;
+}
+
+/* HEADER */
+
+.header-section{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:20px;
+
+  margin-bottom:35px;
+}
+
+.logo-circle{
+
+  width:85px;
+
+  height:85px;
+
+  border-radius:50%;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  font-size:38px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #38bdf8,
+    #8b5cf6
+  );
+
+  box-shadow:
+  0 8px 25px rgba(0,0,0,0.3);
+}
+
+.title{
+
+  font-size:42px;
+
+  margin:0;
+
+  font-weight:800;
+}
+
+.subtitle{
+
+  margin-top:8px;
+
+  color:#cbd5e1;
+
+  font-size:18px;
+}
+
+/* CARDS */
+
+.card{
+
+  border-radius:24px !important;
+
+  background:
+  rgba(255,255,255,0.08) !important;
+
+  backdrop-filter:blur(10px);
+
+  color:white !important;
+
+  box-shadow:
+  0 8px 30px rgba(0,0,0,0.2) !important;
+}
+
+/* CONTROLS */
+
+.controls{
+
+  margin-top:40px;
+
+  margin-bottom:25px;
+}
+
+.month-heading{
+
+  margin-bottom:15px;
+
+  font-size:24px;
+
+  color:#f8fafc;
+}
+
+.month-select{
+
+  background:white !important;
+
+  border-radius:14px !important;
+
+  width:250px !important;
+}
+
+/* ADD SECTION */
+
+.add-section{
+
+  display:flex;
+
+  gap:18px;
+
+  flex-wrap:wrap;
+
+  margin-bottom:35px;
+}
+
+.add-section .MuiTextField-root{
+
+  background:white;
+
+  border-radius:12px;
+}
+
+.add-btn{
+
+  background:
+  linear-gradient(
+    135deg,
+    #06b6d4,
+    #3b82f6
+  ) !important;
+
+  border-radius:14px !important;
+
+  padding:12px 25px !important;
+
+  font-weight:700 !important;
+}
+
+/* TABLE */
+
+.table-container{
+
+  background:
+  rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(12px);
+
+  padding:30px;
+
+  border-radius:30px;
+
+  margin-top:20px;
+}
+
+.table-title{
+
+  margin-bottom:25px;
+
+  font-size:30px;
+
+  font-weight:700;
+}
+
+.modern-table{
+
+  width:100%;
+
+  border-collapse:collapse;
+
+  overflow:hidden;
+
+  border-radius:20px;
+}
+
+.modern-table th{
+
+  background:
+  linear-gradient(
+    135deg,
+    #3b82f6,
+    #8b5cf6
+  );
+
+  color:white;
+
+  padding:18px;
+
+  font-size:17px;
+}
+
+.modern-table td{
+
+  background:
+  rgba(255,255,255,0.08);
+
+  padding:18px;
+
+  text-align:center;
+
+  color:white;
+
+  border-bottom:
+  1px solid rgba(255,255,255,0.1);
+}
+
+.modern-table tr:hover td{
+
+  background:
+  rgba(255,255,255,0.15);
+}
+
+.appliance-name{
+
+  font-weight:700;
+
+  color:#38bdf8;
+}
+
+/* INPUT */
+
+input{
+
+  width:90px;
+
+  padding:10px;
+
+  border:none;
+
+  border-radius:10px;
+
+  text-align:center;
+
+  font-weight:700;
+}
+
+/* BUTTONS */
+
+.update-btn{
+
+  background:
+  linear-gradient(
+    135deg,
+    #10b981,
+    #059669
+  ) !important;
+
+  border-radius:12px !important;
+
+  font-weight:700 !important;
+}
+
+.delete-btn{
+
+  background:
+  linear-gradient(
+    135deg,
+    #ef4444,
+    #dc2626
+  ) !important;
+
+  border-radius:12px !important;
+
+  font-weight:700 !important;
+}
+
+/* CHARTS */
+
+.chart-wrapper{
+
+  margin-top:40px;
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(400px,1fr));
+
+  gap:30px;
+}
+
+.chart-card{
+
+  background:
+  rgba(255,255,255,0.08);
+
+  backdrop-filter:blur(12px);
+
+  padding:25px;
+
+  border-radius:28px;
+}
+
+.chart-title{
+
+  text-align:center;
+
+  margin-bottom:20px;
+
+  font-size:26px;
+}
